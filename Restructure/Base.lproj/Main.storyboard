@@ -17,40 +17,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x3H-Ie-TES">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3H-Ie-TES">
                                 <rect key="frame" x="16" y="20" width="343" height="627"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5At-if-zRm">
-                                        <rect key="frame" x="0.0" y="544" width="88" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Action One"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbh-f2-ujt">
-                                        <rect key="frame" x="0.0" y="514" width="88" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Action Two"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9N-WQ-vn9">
-                                        <rect key="frame" x="127" y="544" width="88" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9N-WQ-vn9">
+                                        <rect key="frame" x="171.5" y="597" width="171.5" height="30"/>
                                         <color key="backgroundColor" red="0.67709373344511015" green="0.88210383402417725" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Action Four"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-w6-75U">
-                                        <rect key="frame" x="127" y="514" width="88" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbh-f2-ujt">
+                                        <rect key="frame" x="0.0" y="567" width="171.5" height="30"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Action Two"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5At-if-zRm">
+                                        <rect key="frame" x="0.0" y="597" width="171.5" height="30"/>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.80000000000000004" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Action One"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-w6-75U">
+                                        <rect key="frame" x="171.5" y="567" width="171.5" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Action Three"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.44105539084611534" green="1" blue="0.25092255469590996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="dgs-w6-75U" firstAttribute="width" secondItem="h9N-WQ-vn9" secondAttribute="width" id="0rD-ke-4tK"/>
+                                    <constraint firstItem="5At-if-zRm" firstAttribute="width" secondItem="x3H-Ie-TES" secondAttribute="width" multiplier="0.5" id="2RL-kl-yhE"/>
+                                    <constraint firstAttribute="bottom" secondItem="h9N-WQ-vn9" secondAttribute="bottom" id="AsR-JM-x0m"/>
+                                    <constraint firstItem="h9N-WQ-vn9" firstAttribute="top" secondItem="dgs-w6-75U" secondAttribute="bottom" id="Dcg-Qs-KKy"/>
+                                    <constraint firstItem="h9N-WQ-vn9" firstAttribute="width" secondItem="5At-if-zRm" secondAttribute="width" id="JKG-G2-Pgg"/>
+                                    <constraint firstAttribute="bottom" secondItem="5At-if-zRm" secondAttribute="bottom" id="O3t-Kn-Gsg"/>
+                                    <constraint firstAttribute="bottom" secondItem="5At-if-zRm" secondAttribute="bottom" id="T5D-b7-KIb"/>
+                                    <constraint firstItem="5At-if-zRm" firstAttribute="leading" secondItem="x3H-Ie-TES" secondAttribute="leading" id="UW1-2l-2uY"/>
+                                    <constraint firstItem="Mbh-f2-ujt" firstAttribute="width" secondItem="5At-if-zRm" secondAttribute="width" id="dmP-IA-eYc"/>
+                                    <constraint firstItem="Mbh-f2-ujt" firstAttribute="leading" secondItem="x3H-Ie-TES" secondAttribute="leading" id="ee1-s4-Ead"/>
+                                    <constraint firstAttribute="trailing" secondItem="h9N-WQ-vn9" secondAttribute="trailing" id="fMA-Lm-XRM"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mbh-f2-ujt" secondAttribute="bottom" constant="30" id="hwt-PJ-eAF"/>
+                                    <constraint firstItem="dgs-w6-75U" firstAttribute="width" secondItem="Mbh-f2-ujt" secondAttribute="width" id="pOs-f6-tkS"/>
+                                    <constraint firstAttribute="trailing" secondItem="dgs-w6-75U" secondAttribute="trailing" id="u4s-ge-PY4"/>
+                                    <constraint firstItem="5At-if-zRm" firstAttribute="leading" secondItem="x3H-Ie-TES" secondAttribute="leading" id="zp4-Sj-mXp"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x3H-Ie-TES" secondAttribute="bottom" constant="20" id="Gqq-h0-i8Z"/>
+                            <constraint firstItem="x3H-Ie-TES" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XLc-fc-5SY"/>
+                            <constraint firstItem="x3H-Ie-TES" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bZW-Hw-Oeh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x3H-Ie-TES" secondAttribute="trailing" constant="16" id="kaM-Po-CWR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
